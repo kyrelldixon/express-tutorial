@@ -1,9 +1,10 @@
 {
   "name": "express-tutorial",
   "version": "1.0.0",
-  "description": "This is the source code for a tutorial on my [personal site](https://www.kyrelldixon.com) that walks you step-by-step to build out a REST api from scratch.",
+  "description": "This is the source code for a tutorial that walks you step-by-step through building out a REST api from scratch.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
