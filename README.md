@@ -12,23 +12,16 @@ To get the code running, you will need to have [Node.js](https://nodejs.org/en/)
 
 To get things up and running:
 
-1. Clone the repo
+1. Install packages
 
 ```bash
-git clone #repo
+npm install # or yarn
 ```
 
-2. Install packages
+2. Run the server
 
 ```bash
-npm install express # or yarn add express
-npm install --save-dev nodemon # or yarn add -D express
-```
-
-3. Run the server
-
-```bash
-npm run start
+npm start # or yarn start
 ```
 
 If you have any issues, updates, or requests, feel free to go to the issues tab and add an issue!
